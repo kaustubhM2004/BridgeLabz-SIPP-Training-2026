@@ -40,4 +40,4 @@ public class RajResultGenerator {
 
         sc.close();
     }
-}g
+} 

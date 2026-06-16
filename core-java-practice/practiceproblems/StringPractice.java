@@ -47,22 +47,23 @@ import java.util.*;
 //     }
 // }
 
-
 import java.util.*;
 
 public class StringPractice {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+
         String str = "aabbcc";
-        char[] ch = new char[26];
-        for (int i = 0; i < ch.length; i++) {
-            if(ch.charAt(i)!=1)
-            ch = str.charAt(i);
-            ch[ch-97]++;
+
+        int[] ch = new int[26];
+
+        for(int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            ch[c - 'a']++;
         }
-        for(int i=0; i<str.length(); i++){
-            if(ch[i]>=0){
-                System.out.println(char[i+97]+ "->"+ ch[i]);
+
+        for(int i = 0; i < 26; i++) {
+            if(ch[i] > 0) {
+                System.out.println((char)(i + 'a') + " -> " + ch[i]);
             }
         }
     }
