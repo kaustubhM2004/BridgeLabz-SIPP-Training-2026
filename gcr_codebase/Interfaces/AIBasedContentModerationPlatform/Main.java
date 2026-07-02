@@ -1,4 +1,4 @@
-package GcrCodeBase.Interfaces.AIBasedContentModerationPlatform;
+package gcr_codebase.Interfaces.AIBasedContentModerationPlatform;
 
 public class Main {
 
