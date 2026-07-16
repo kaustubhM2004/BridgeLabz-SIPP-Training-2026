@@ -1,4 +1,4 @@
-package OOPS.gcr-codebase.EncapsulationAbstraction.VehicleRentalSystem;
+package VehicleRentalSystem;
 
 class Bike extends Vehicle {
 
